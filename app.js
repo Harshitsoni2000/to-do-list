@@ -34,8 +34,8 @@ const Any=mongoose.model("one", anySchema);
 
 const defaultItems= [];
 
-app.listen(3000, ()=> {
-  console.log("Server started on Port 3000");
+app.listen(process.env.PORT || 3000, ()=> {
+  console.log("Server has started successfully");
 });
 
 app.post("/delete", (req, res)=> {

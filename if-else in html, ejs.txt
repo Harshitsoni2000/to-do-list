@@ -1,6 +1,0 @@
-
-<!-- <% if(typeDay==="Saturday" || typeDay==="Sunday") { %>
-  <h1 style="color: red"><%= typeDay %>'s To-Do List</h1>
-<% } else { %>
-  <h1 style="color: blue"><%= typeDay %>'s To-Do List</h1>
-<% } %> -->
